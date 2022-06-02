@@ -1,0 +1,9 @@
+on:
+  pull_request:
+    types: [opened, reopened]
+
+jobs:
+  run-pylint:
+    runs-on: ubuntu-latest
+    steps:
+      - run: "which python"
