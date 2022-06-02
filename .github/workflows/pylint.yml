@@ -4,4 +4,4 @@ jobs:
   run-pylint:
     runs-on: ubuntu-latest
     steps:
-      - run: ci/pylint.sh
+      - run: "ci/pylint.sh"
