@@ -4,6 +4,4 @@ jobs:
   run-pylint:
     runs-on: ubuntu-latest
     steps:
-      - run: "python --version"
-      - run: "which python"
-      - run: "pip --version"
+      - run: ci/pylint.sh
