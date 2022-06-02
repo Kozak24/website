@@ -1,11 +1,11 @@
-$echo Check python location and version
+$echo "Check python location and version\n"
 which python
 python --version
 
-$echo Check python location and version
+$echo "\nCheck python location and version\n"
 which pip
 pip --version
 
-$echo Install pylint and check its version
+$echo "\nInstall pylint and check its version\n"
 pip install pylint
 pylint --version
