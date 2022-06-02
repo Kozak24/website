@@ -6,3 +6,4 @@ jobs:
     steps:
       - run: "python --version"
       - run: "which python"
+      - run: "python --version"
