@@ -4,4 +4,5 @@ jobs:
   run-pylint:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - run: "bash ${GITHUB_WORKSPACE}/ci/pylint.sh"
