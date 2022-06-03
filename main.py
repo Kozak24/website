@@ -1,4 +1,12 @@
-def main():
+"""
+Module to test pylint
+"""
+
+
+def main() -> None:
+    """
+    Method prints 'Initialization' string
+    """
     print("Initialization")
 
 
