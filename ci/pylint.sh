@@ -9,3 +9,6 @@ pip --version
 printf "\nInstall pylint and check its version\n"
 pip install pylint
 pylint --version
+
+printf "\n Pylint check\n"
+pylint --rcfile=./ci/.pylintrc --recursive=y .
